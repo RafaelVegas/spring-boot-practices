@@ -3,6 +3,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+pom/
 
 ### STS ###
 .apt_generated
@@ -12,6 +13,8 @@ target/
 .settings
 .springBeans
 .sts4-cache
+.mvnw
+.pom
 
 ### IntelliJ IDEA ###
 .idea
@@ -25,7 +28,6 @@ target/
 /dist/
 /nbdist/
 /.nb-gradle/
-/META-INF/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
